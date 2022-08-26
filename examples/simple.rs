@@ -1,5 +1,6 @@
-use rust_template_project::lib_hello;
+use tictac::say_hello;
 
 fn main() {
-    lib_hello();
+    println!("FROM examples/simple.rs:main");
+    say_hello();
 }
