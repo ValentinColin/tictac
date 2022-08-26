@@ -1,19 +1,17 @@
 [package]
-name = "rust-template-project"
-version = "0.1.0"
+name = "tictac"
+version = "0.0.0"
 authors = ["Valentin Colin <valentin.colin78@gmail.com>"]
 edition = "2021"
-description = "This project serves as the basis for future new projects"
-readme = "README.md"
-homepage = "https://github.com/ValentinColin/rust-template-project.git"
-repository = "https://github.com/ValentinColin/rust-template-project.git"
+description = "A simple stopwatch."
+homepage = "https://ValentinColin.github.io/tictac"
+repository = "https://github.com/ValentinColin/tictac.git"
+documentation = "https://docs.rs/ValentinColin/latest/tictac"
 license = "MIT"
-# licence-file = "LICENSE"
-keywords = ["template"]
+keywords = ["timer", "chrono"]
 
 [dependencies]
-clippy = {version = "0.0.21", optional = true}
+log = "0.4.17"
 
-[features]
-default = []
-dev = ["clippy"]
+[dev-dependencies]
+env_logger = "0.9.0"

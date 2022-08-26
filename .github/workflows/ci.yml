@@ -6,13 +6,11 @@ on:
       - master
     paths-ignore:
       - '.github/**'
-      - 'docs/**'
+      - '.run/**'
   pull_request:
-    branches:
-      - master
     paths-ignore:
       - '.github/**'
-      - 'docs/**'
+      - '.run/**'
 
 env:
   CARGO_TERM_COLOR: always
@@ -68,12 +66,12 @@ jobs:
       - name: Tests
         run: cargo test --verbose
 
-      - name: Benches
-        if: matrix.benches
-        run: cargo bench
+      #- name: Benches
+      #  if: matrix.benches
+      #  run: cargo bench
 
-      - name: Run example simple
-        run: cargo run --example simple
+      #- name: Run example simple
+      #  run: cargo run --example simple
 
-      - name: Run example multi-file
-        run: cargo run --example multi-file-example
+      #- name: Run example multi-file
+      #  run: cargo run --example multi-file-example

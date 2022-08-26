@@ -1,13 +1,13 @@
 # Welcome on a template project
 ## Task to do for configure this template
 
-| Required                                                 | Recommended                                            | Optional                         |
+|                         Required                         |                      Recommended                       |             Optional             |
 |:--------------------------------------------------------:|:------------------------------------------------------:|:--------------------------------:|
-| Configure the [Cargo.toml](Cargo.toml) file              | Change [.github/FUNDING.yml](.github/FUNDING.yml) file | Change the [LICENCE](LICENCE)    |
-| Change the [README.md](README.md) file                   |                                                        |                                  |
-| Change the [ci.yml](.github/workflows/ci.yml) file       |                                                        |                                  |
+|                                                          | Change [.github/FUNDING.yml](.github/FUNDING.yml) file |  Change the [LICENCE](LICENCE)   |
+|                                                          |                                                        |                                  |
+|    Change the [ci.yml](.github/workflows/ci.yml) file    |                                                        |                                  |
 | Change [docs/](docs/) (book.toml,installation.md) folder |                                                        |                                  |
-| :tada: Have fun !!! :tada:                               | :books: Learn :books:                                  | :star: Like this template :star: |
+|                :tada: Have fun !!! :tada:                |                 :books: Learn :books:                  | :star: Like this template :star: |
 
 ## Description of directories
 
@@ -29,10 +29,10 @@
     
 <!-- see https://shields.io/ -->
 
-![Issues tag](https://img.shields.io/github/issues/ValentinColin/rust-template-project)
-![Forks tag](https://img.shields.io/github/forks/ValentinColin/rust-template-project)
-![Stars](https://img.shields.io/github/stars/ValentinColin/rust-template-project?style=social)
-![Licence](https://img.shields.io/github/license/ValentinColin/rust-template-project)
+![Issues tag](https://img.shields.io/github/issues/ValentinColin/tictac)
+![Forks tag](https://img.shields.io/github/forks/ValentinColin/tictac)
+![Stars](https://img.shields.io/github/stars/ValentinColin/tictac?style=social)
+![Licence](https://img.shields.io/github/license/ValentinColin/tictac)
 
 </div>
 
@@ -65,8 +65,8 @@ This project is awesome writing in [rust](https://www.rust-lang.org/fr/)
 
 ```bash
 # https or ssh
-git clone https://github.com/ValentinColin/rust-template-project.git
-git clone git@github.com:ValentinColin/rust-template-project.git
+git clone https://github.com/ValentinColin/tictac.git
+git clone git@github.com:ValentinColin/tictac.git
 
 cargo build --release
 ```
@@ -95,6 +95,6 @@ Thank you for considering and taking the time to contribute! Before contributing
 
 ## Credits
 
-<a href="https://github.com/ValentinColin/rust-template-project/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ValentinColin/rust-template-project" alt="contributors"/>
+<a href="https://github.com/ValentinColin/tictac/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ValentinColin/tictac" alt="contributors"/>
 </a>
