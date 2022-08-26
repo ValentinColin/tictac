@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Release" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-    <option name="command" value="run --release  --example simple" />
+  <configuration default="false" name="Bench" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
+    <option name="command" value="bench " />
     <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-    <option name="channel" value="DEFAULT" />
+    <option name="channel" value="NIGHTLY" />
     <option name="requiredFeatures" value="true" />
     <option name="allFeatures" value="false" />
     <option name="emulateTerminal" value="false" />
