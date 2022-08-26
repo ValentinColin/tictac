@@ -1,28 +1,5 @@
-# Welcome on a template project
-## Task to do for configure this template
-
-|                         Required                         |                      Recommended                       |             Optional             |
-|:--------------------------------------------------------:|:------------------------------------------------------:|:--------------------------------:|
-|                                                          | Change [.github/FUNDING.yml](.github/FUNDING.yml) file |  Change the [LICENCE](LICENCE)   |
-|                                                          |                                                        |                                  |
-|    Change the [ci.yml](.github/workflows/ci.yml) file    |                                                        |                                  |
-| Change [docs/](docs/) (book.toml,installation.md) folder |                                                        |                                  |
-|                :tada: Have fun !!! :tada:                |                 :books: Learn :books:                  | :star: Like this template :star: |
-
-## Description of directories
-
-| Directory             | Description                                    | Used by ...               |
-|-----------------------|------------------------------------------------|---------------------------|
-| [src/](src)           | The main directory containing the project code | `Cargo`                   |
-| [tests/](tests)       | The integration test directory                 | `Cargo`                   |
-| [benches/](benches)   | The benches directory                          | `Cargo` (nightly channel) |
-| [examples/](examples) | The example directory                          | `Cargo`                   |
-| [.github/](.github)   | The special github directory                   | `Github`                  |
-
-> delete everything before this
-
 <h1 align="center">
-    ✨ Project's Title ✨
+    ✨ Tic Tac ✨
 </h1>
 
 <div align="center">
@@ -46,8 +23,8 @@ This project is awesome writing in [rust](https://www.rust-lang.org/fr/)
     * [System requirement](#system-requirement)
     * [Software requirement](#software-requirement)
     * [Manual installation](#manual-installation)
-* [Usage](#usage)
 * [Tests](#tests)
+* [Usage](#usage)
 * [Potential Maintainers](#potential-maintainers)
 * [Credits](#credits)
 
